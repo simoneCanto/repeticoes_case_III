@@ -1,0 +1,7 @@
+passo = range(1,5 + 1)
+
+soma = 0
+for i in passo:
+  n = int(input('digite um valor: '))
+  soma = soma + n
+print('A soma total é de {}'.format(soma))
