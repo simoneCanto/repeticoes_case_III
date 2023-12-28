@@ -1,0 +1,5 @@
+passo = range(1,20 + 1)
+
+for i in passo:
+  print('Leia a página: {}'.format(i))
+print('FIM')
