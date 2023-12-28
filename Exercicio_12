@@ -1,0 +1,10 @@
+soma = 0
+
+while True:
+  n = int(input('Digite um valor: '))
+  soma += n
+  continua = input('Você quer continuar? (s/n) ')
+  if continua == 'n':
+    break
+  print('depois do break')
+print(soma)
