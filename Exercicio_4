@@ -1,0 +1,7 @@
+passo = range(1,23+1,2)
+soma = 0
+
+for i in passo:
+  soma = soma + i
+  print('i = {}, soma = {}'.format(i,soma))
+print(soma)
