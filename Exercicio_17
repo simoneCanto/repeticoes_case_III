@@ -1,0 +1,15 @@
+print (" Trabalho de Fibonacci ")
+n =int( input(" Digite Quantos termos você deseja :"))
+t1 = 0
+t2 = 1
+
+cont = 0
+print("{} - {} - ".format(t1,t2), end="")
+while cont <= n:
+    t3 = t2 + t1
+    t1 = t2
+    t2 = t3
+    cont += 1
+
+    print("{} - ".format(t3), end="")
+print( " Mostrou a sequencia dos {} termos após o terceiro termo da Sequencia de Fibonacci! ".format(n))
