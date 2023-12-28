@@ -1,0 +1,9 @@
+passo = range(1,3+1)
+soma = 0
+
+for i in passo:
+  n = float(input('Digite o {}º número: '.format(i)))
+  soma += n
+  print('i = {}, soma = {}'.format(i,soma))
+media = soma / i
+print('a média é de: {}'.format(media))
