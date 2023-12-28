@@ -1,0 +1,6 @@
+fim = 'n'
+
+while fim == 'n':
+  print('Leia página')
+  fim = input('Terminou o capítulo? (s/n) ')
+print('FIM')
