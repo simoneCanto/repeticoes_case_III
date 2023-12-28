@@ -1,0 +1,5 @@
+#Tabuada de Multiplicação ( de 0 a 10)
+num = int(input('Digite o número da Tabuada: '))
+
+for i in range(0, 10+1):
+ print(num, '*', i, '=', num*i)
