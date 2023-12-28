@@ -1,0 +1,9 @@
+qtd = int(input("quantos números você quer tirar a média? "))
+passo = range(1, qtd + 1)
+soma = 0
+
+for i in passo:
+  n = float(input('Digite o {}º número'.format(i)))
+  soma += n
+media = soma / i
+print('A média deu de: {}'.format(media))
