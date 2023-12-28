@@ -1,0 +1,7 @@
+mult = 2
+passo = range(1,9+1)
+
+for i in passo:
+  #mult = mult*2
+  mult *= 2
+  print('i = {}, mult {}'.format(i,mult))
