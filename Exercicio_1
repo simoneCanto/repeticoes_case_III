@@ -1,0 +1,3 @@
+passo = range(1,5+1)
+for i in passo:
+  print('Passo = {} - Olá'.format(i))
