@@ -1,0 +1,12 @@
+soma = 0
+i = 0
+
+while True:
+  i += 1
+  num = float(input('Digite um número: '))
+  soma += num
+  continua = input('você quer continuar? (s/n) ')
+  if continua == 'n':
+    break
+media = soma / i
+print('Você digitou {} numeros, e a média é de {}'.format(i, media))
