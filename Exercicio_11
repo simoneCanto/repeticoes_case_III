@@ -1,0 +1,6 @@
+soma = 0
+
+while soma < 20:
+  n = int(input('Digite o número: '))
+  soma += n
+print(soma)
